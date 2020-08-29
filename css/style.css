@@ -17,20 +17,147 @@
       color: #303030;
       font-weight: 400;
       margin-bottom: 30px;
-  }  
-  .jumbotron {
-      background-color:grey;
-      color: #fff;
-      padding: 100px 25px;
-      font-family: Montserrat, sans-serif;
+  } 
+   /* JUMBOTRON SECTION  */
+  .intro-container {
+      height: 100vh;
+      background: url("../img/Runner9.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+       -o-background-size: cover;
+       position: relative;
+       background-size: cover;
+     display: flex; 
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	max-width: 100% 
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    color:white;
   }
-
-
-
-/* JuMBOTRON  BUTTON */
 
 button.btn-orange {
   background-color: #ff8300;
+}
+/* HOME PAGE  */
+.container-home {
+    height:100vh; 
+    display:flex;
+    
+}
+/* Weather-APP */
+
+.app-wrap {
+  position: relative;
+  right: 400px; 
+  justify-content: left;
+  flex-direction: row;
+  min-height: 30vh;
+  width: 250px;
+  background-color: orange;
+  margin:50px,0;
+
+  display: block;
+  margin: 0 auto;
+
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+
+.app-title {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+}
+
+.app-title p {
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  color: #293251;
+}
+
+.notification {
+  background-color: #f8d7da;
+  display: none;
+}
+
+.notification p {
+  color: #721c24;
+  font-size: 1.2em;
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.weather-container {
+  width: 250px;
+  height: 260px;
+  background-color: #f4f9ff;
+}
+
+.weather-icon {
+  width: 250px;
+  height: 128px;
+}
+
+.weather-icon img {
+  display: block;
+  margin: 0 auto;
+}
+
+.temperature-value {
+  width: 250px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.temperature-value p {
+  padding: 0;
+  margin: 0;
+  color: #293251;
+  font-size: 4em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.temperature-value p:hover {
+}
+
+.temperature-value span {
+  color: #293251;
+  font-size: 0.5em;
+}
+
+.temperature-description {
+}
+
+.temperature-description p {
+  padding: 8px;
+  margin: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.location {
+}
+
+.location p {
+  margin: 0;
+  padding: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 0.8em;
+}
+.date p {
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+  font-size: 0.8em;
+  color: #293251;
 }
 
 /* Running Route Section */

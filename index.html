@@ -8,14 +8,17 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
 <link rel="stylesheet" href="css/style.css">
-<link rel="icon" href="#" type="image/x-icon">
+<link rel="icon" href="img/cr-favicon.jpg" type="image/x-icon">
 <title>CitiRunner</title> 
 </head>
 <body>
-<div class= "jumbotron text-center">
-<h1>Run Smart, Run Safe With CitiRunner</h1>
-<p>Weather Checker  <br> bla bla</p>
- <button class="btn btn-orange  dropdown-toggle mr-4" type="button" data-toggle="dropdown"
+
+<div class= "intro-container text-center">
+  <div class=" row">
+    <div class="col-12">
+   <h1>Run Smart, Run Safe With CitiRunner</h1>
+   <p>Weather Checker  <br> bla bla</p>
+   <button class="btn btn-orange  dropdown-toggle mr-4" type="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Select Your Hotel Location</button>
             
             <div class="dropdown-menu">
@@ -27,26 +30,46 @@
             
             
             </div>
-</div>
-<div class="container">
-  <div class="row">
-  <div class="col-sm-4">
-      <h2> Weather App going here </h2>
+        </div>
+      </div>
     </div>
+
+   <!-- HOMEPAGE HERE -->
+
+<div class="container-home">
+  <div class="row">
+  <div class="col-sm-8">
+     <!-- <div class="container"> -->
+          <div class="app-wrap">
+            <div class="app-title"><p>Your Weather Today</p></div>
+            <div class="date"><p>Monday 17 August 2020</p></div>
+              <div class="notification"></div>
+                <div class="weather-container">
+                  <div class="weather-icon"><img src="icons/unknown.png" /></div>
+                    <div class="temperature-value"><p>25°<span>C</span></p></div>
+                      <div class="temperature-description"><p>Sunny</p></div>
+                       <div class="location"><p>London</p></div>
+
+                      </div>
+                   </div>
+                 </div>
+            </div>  
     <div class="col-sm-4">
       <h2>Nice Weather?</h2>
       <h4>Choose Your Distance & Route</h4>
       <p>Lots of options</p>
       <button class="btn btn-default btn-lg">I Want To Run!</button>
-    </div>
-    <div class="col-sm-4">
+    
       <h2> Bad Weather?</h2>
       <h4>Find a Gym or Yoga Class Nearby</h4>
       <p>Lots of options</p>
       <button class="btn btn-default btn-lg">Find A Gym</button>
     </div>
     </div>
-</div>
+
+
+
+
 <div class="container-fluid text-center">
   <h2>Running Routes</h2>
   <h4>Choose from 2k, 5k or 8k </h4>
