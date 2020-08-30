@@ -1,4 +1,4 @@
-// api key : 357a7285a7a4b3386c083da27c9903f9
+
 
 // SELECT ELEMENTS
 const iconElement = document.querySelector(".weather-icon");

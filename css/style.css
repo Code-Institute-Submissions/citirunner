@@ -46,6 +46,11 @@ button.btn-orange {
     display:flex;
     
 }
+/* WEATHER PAGE  */
+
+.container-weather{
+    height:100vh;
+}
 /* Weather-APP */
 
 .app-wrap {
