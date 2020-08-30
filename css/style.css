@@ -47,6 +47,19 @@ button.btn-orange {
     
 }
 /* WEATHER PAGE  */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
 
 .container-weather{
     height:100vh;
@@ -55,7 +68,7 @@ button.btn-orange {
 
 .app-wrap {
   position: relative;
-  right: 400px; 
+ 
   justify-content: left;
   flex-direction: row;
   min-height: 30vh;
