@@ -182,6 +182,13 @@ button.btn-orange {
 .container-routes{
 height:100vh
 }
+/* Gym Location Map */
+#map{
+  height: 100%;
+}
+.container-map{
+  height: 100vh;
+}
 
 .imgBox {
 width: 720px;

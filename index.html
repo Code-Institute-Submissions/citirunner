@@ -168,17 +168,17 @@
     <!-- Google Gym Location Map -->
    
     <div class= "container-map text-center">
-    <div id= "map"></div>
+    
     <h2>Find A Local Gym or Yoga Class</h2>
     <alert> Get 25% Discount on Your Gym Day Pass or Yoga class! </alert>
-    <form class="form-inline">
-    <div class="input-group">
+    <div class="input-group  align-items center">
       <input type="email" class="form-control" size="50" placeholder="Email Address" required>
       <div class="input-group-btn">
-        <button type="button" class="btn btn-danger">Subscribe</button>
+        <button type="button" class="btn btn-warning">Subscribe</button>
       </div>
     </div>
   </form>
+  <div id= "map"></div>
 </div>
 <!-- Personal trainer Section here  -->
 
@@ -218,13 +218,16 @@
 <!-- Footer Section -->
 
 
-
+<script src="js/Gmap.js"></script>
 <script src="js/weather.js"></script>
 <script src="js/main.js"></script>
 <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
+<script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBL1EfJEl3cal6PvksLZMAFi3HQefLW8WY&callback=initMap"
+    ></script>
 </body>
 </html> 
