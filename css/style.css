@@ -236,10 +236,17 @@ Gym Location Map */
 .container-map {
     height:100vh;
     display: flex; 
+   
 }
+
+.map-header h2 {
+     color:#fff 
+     background-color:#818181;  
+    }
 
 .alert {
     max-width: 800px;
+    color: #fff
 }
 .form-discount {
     align: center; 
@@ -252,4 +259,5 @@ btn .btn-warning{
 #map{
   height: 100%;
   width: 80%;
+  margin:  20px 5px 10px 5px;
 }
