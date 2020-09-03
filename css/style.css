@@ -178,20 +178,14 @@ button.btn-orange {
   color: #293251;
 }
 
-/* Run Route Image Section */
+/* Run Route Gallery Section */
 .container-routes{
 height:100vh
 }
-/* Gym Location Map */
-.container-map{
-  height: 100vh;
-}
 
-#map{
-  height: 100%;
-}
 
-/* Run Route Gallery  */
+
+
 
 
 .imgBox {
@@ -241,4 +235,21 @@ box-shadow: 0 5px 25px rgba(0,0,0, .5);
 Gym Location Map */
 .container-map {
     height:100vh;
+    display: flex; 
+}
+
+.alert {
+    max-width: 800px;
+}
+.form-discount {
+    align: center; 
+    max-width: 500px;
+    margin: 10px ;
+}
+btn .btn-warning{
+    margin: 10px 0 10px; 
+}
+#map{
+  height: 100%;
+  width: 80%;
 }
