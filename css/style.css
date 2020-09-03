@@ -7,7 +7,7 @@
   h2 {
       font-size: 24px;
       text-transform: uppercase;
-      color: #303030;
+      
       font-weight: 600;
       margin-bottom: 30px;
   }
@@ -60,11 +60,12 @@ button.btn-orange {
   flex-basis: 100%;
   flex: 1;
 }
+/* Weather-APP  SECTION*/
 
 .container-weather{
     height:100vh;
 }
-/* Weather-APP */
+
 
 .app-wrap {
   position: relative;
@@ -73,7 +74,7 @@ button.btn-orange {
   flex-direction: row;
   min-height: 30vh;
   width: 250px;
-  background-color: orange;
+  background-color: #ff8300;
   margin:50px,0;
 
   display: block;
@@ -176,6 +177,10 @@ button.btn-orange {
   margin: 0 auto;
   font-size: 0.8em;
   color: #293251;
+}
+
+.btn-default {
+    background-color: #ff8300
 }
 
 /* Run Route Gallery Section */
