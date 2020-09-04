@@ -2,12 +2,11 @@
  body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
-      color: #818181;
+      color: #303030;
   }
   h2 {
       font-size: 24px;
       text-transform: uppercase;
-      
       font-weight: 600;
       margin-bottom: 30px;
   }
@@ -188,11 +187,6 @@ button.btn-orange {
 height:100vh
 }
 
-
-
-
-
-
 .imgBox {
 width: 720px;
 margin: 50px auto 20px;
@@ -240,13 +234,12 @@ box-shadow: 0 5px 25px rgba(0,0,0, .5);
 Gym Location Map */
 .container-map {
     height:100vh;
-    display: flex; 
-   
-}
+    }
 
 .map-header h2 {
      color:#fff 
-     background-color:#818181;  
+     background-color:#818181; 
+     text-align: center; 
     }
 
 .alert {
@@ -263,6 +256,81 @@ btn .btn-warning{
 }
 #map{
   height: 100%;
-  width: 80%;
+  /* width: 80%; */
   margin:  20px 5px 10px 5px;
+}
+/* 
+Contact section  */  
+
+#contact {
+  min-height: 100vh;
+  background:linear-gradient(rgba(0,0,0,0.5), transparent), 
+  url(/img/bkg-contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  }
+  .form-wrapper {
+    background:rgba(19,28,39,0.4);
+    width:40%
+    color white; 
+    border-radius: 20px;
+  }
+
+.form-head {
+  color: white;
+  text-align: center;
+  padding: 4rem 
+  
+}
+
+.name-form,
+.email-form{
+  padding:3rem;
+  text-align:center;
+ }
+.form-wrapper label{
+  margin: 0rem 3rem;
+  font-size: 2rem;
+  color:white
+}
+.form-wrapper button {
+  width:100%;
+  padding: 2rem;
+  margin-top:8rem;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+  background-color: #ff8300;
+  }
+.form-wrapper input{
+  padding:1rem 3rem;
+}
+
+/* Footer Section */
+footer {
+  color:white;
+  background: rgba(19,28,39,1); 
+}
+.footer-wrapper {
+  display: flex; 
+  padding: 2rem; 
+  width: 90%;
+  margin: auto; 
+  align-items: center; 
+  min-height: 10vh;
+  flex-wrap: wrap; 
+}
+.footer h5 {
+  font-size:2rem;
+  flex: 1 1 40rem;
+}
+.footer ul{
+  display:flex; 
+  list-style :none;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
 }
