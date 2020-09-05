@@ -9,7 +9,16 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="img/cr-favicon.jpg" type="image/x-icon">
-<title>CitiRunner</title> 
+<title>CitiRunner</title>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_SpoKXHilq98mOnRqmWgZo");
+   })();
+  
+</script 
 </head>
 <body>
 
@@ -165,12 +174,12 @@
     <div class ="alert alert-warning my-auto " role="alert">Get 25% Discount on Your Gym Day Pass or Yoga class! </div>
     </div>
     
-    <div class="input-discount  align-items center">
+    <!-- <div class="input-discount  align-items center">
       <input type="email" class="form-discount" size="50" placeholder="Email Address" required>
       <div class="input-discount-btn">
         <button type="button" class="btn btn-warning">Send My Discount!</button>
       </div>
-      </div>
+      </div> -->
       
     </div>
  
@@ -182,7 +191,24 @@
    
     <!-- Section: Contact -->
 
-  <section id="contact">
+     <section class = "container-fluid discount-form">
+    <div class= "row bg-color-contact">
+    <div>
+    <h3 class = "contact-heading uppercase text-center"> HEADING TEXT HERE </h3>
+    <h5 class = "uppercase text-center"> MoRE TEXT </h5>
+    </div>
+    <div class ="center-form">
+    <form onsubmit = "return sendMail(this);">
+    <input type = "text" name = "name" class = "form-control" id ="fullname" placeholder = "Your Name" required/>
+    <input type= "text" name ="emailaddress" class="form-control"id= "emailaddress" placeholder = "Your Email" required/>
+     <button type= "submit" class= "btn btn-secondary center-block">Send my Discount!</button>
+     </form>
+     </div>
+     </div>
+     </section> 
+   
+
+  <!-- <section id="contact">
   <div class = "contact-header">
   <h2> Get 25% OFF Your Daily Gym Pass or Training Session</h2>
   <h3>Sign Up with Your Email & Save!</h3>
@@ -203,7 +229,7 @@
       <button type="submit">Submit</button>
       </form>
     </div>
-  </section>
+  </section> -->
 
 
   <!-- Footer Section -->
@@ -254,11 +280,12 @@
     </div>
   </div>
 </div>  -->
-<!-- Footer Section -->
+<!-- End of Footer Section -->
 
 
 <script src="js/Gmap.js"></script>
 <script src="js/weather.js"></script>
+<script src = "js/mail.js"></script>
 <script src="js/main.js"></script>
 <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>

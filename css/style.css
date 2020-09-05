@@ -17,7 +17,7 @@
       font-weight: 400;
       margin-bottom: 30px;
   } 
-   /* JUMBOTRON SECTION  */
+   /* INTRO SECTION  */
   .intro-container {
       height: 100vh;
       background: url("../img/Runner9.jpg") no-repeat center center fixed;
@@ -232,10 +232,9 @@ box-shadow: 0 5px 25px rgba(0,0,0, .5);
 
 /* 
 Gym Location Map */
+
 .container-map {
     height:100vh;
-    background-color: gray;
-   
     }
 
 
@@ -254,13 +253,39 @@ btn .btn-warning{
 }
 #map{
     height: 100%;
-  width: 80% ;
+ 
   margin:  20px 5px 10px 5px;
 }
 /* 
-Contact section  */  
+Contact section  */
 
-#contact {
+.discount-form{
+    height:100vh;
+}
+
+.contact-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #e84610;
+  color: #fafafa;
+}
+
+
+/* #contact {
   min-height: 100vh;
   background:linear-gradient(rgba(0,0,0,0.5), transparent), 
   url(/img/bkg-contact.jpg);
@@ -305,7 +330,7 @@ Contact section  */
   }
 .form-wrapper input{
   padding:1rem 3rem;
-}
+} */
 
 /* Footer Section */
 footer {
