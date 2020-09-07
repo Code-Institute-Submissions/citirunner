@@ -261,6 +261,9 @@ Contact section  */
 
 .discount-form{
     height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-heading {
