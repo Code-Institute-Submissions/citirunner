@@ -17,51 +17,7 @@
       font-weight: 400;
       margin-bottom: 30px;
   } 
-   /* INTRO SECTION  */
- .callout-container {
-  height: 100vh;
 
-  background: url("../img/runner10x.png") no-repeat bottom right
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-
-
-.content-container {
-  padding-top: 75px;
-  padding-bottom: 75px;
-}
-/* Jumbotron */
-
-.jumbotron {
-  background-color: transparent;
-}
-
-.jumbotron h1 {
-  color: white;
-  font-weight: bold;
-  margin-bottom: 30px;
-  color: white;
-}
-
-.jumbotron .lead {
-  color: #fff;
-  margin: 25px 0;
-}
-
-.jumbotron small {
-  font-size: 60%;
-  font-style: italic;
-  color: #d0d0d0;
-}
 
 /* Block dividers */
 
@@ -116,6 +72,51 @@
 .page-header h2 {
   margin-top: 0;
 }
+   /* INTRO SECTION  */
+ .callout-container {
+  height: 100vh;
+
+  background: url("img/runner10x.png") no-repeat bottom right
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+
+.content-container {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+/* Jumbotron */
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.jumbotron .lead {
+  color: #fff;
+  margin: 25px 0;
+}
+
+.jumbotron small {
+  font-size: 60%;
+  font-style: italic;
+  color: #d0d0d0;
+}
 
 
   /* .intro-container {
@@ -155,7 +156,7 @@ button.btn-orange {
 
 .column {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   flex-basis: 100%;
   flex: 1;
 }
@@ -163,6 +164,17 @@ button.btn-orange {
 
 .container-weather{
     height:100vh;
+   background: url("../img/runner10x.png") no-repeat bottom right
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+} 
 }
 
 
@@ -282,53 +294,10 @@ button.btn-orange {
     background-color: #ff8300
 }
 
-/* Run Route Gallery Section */
-.container-routes{
-height:100vh
-}
-
-.imgBox {
-width: 720px;
-margin: 50px auto 20px;
-}
-
-.imgBox img {
-width: 100%; 
-border: 4px solid #fff; 
-box-shadow: 0 5px 25px rgba(0,0,0, .5);
-}
-
-ul.thumb {
-margin: 0 auto;
-padding: 0;
-display: flex; 
-align-items: center; 
-justify-content: center; 
-}
-
-ul.thumb li {
-List-style: none; 
-margin: 10px 10px;
-}
-
-ul.thumb li img {
-Border: 4px solid #fff; 
-box-shadow: 0 5px 25px rgba(0,0,0, .5);
-}
 
 
 /* Running Route Section */
-/* .thumbnail {
-  padding: 0 0 15px 0;
-  border: none;
-  border-radius: 0;
-}
 
-.thumbnail img {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 10px;
-} */
 
 /* 
 Gym Location Map */
