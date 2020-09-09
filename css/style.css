@@ -460,10 +460,61 @@ btn .btn-warning{
  
   margin:  20px 5px 10px 5px;
 }
+
+ /* CONTACT FORM */
+ .container-optin{
+  height: 100vh;
+
+  background: url("../img/contact-bg.png") no-repeat bottom right
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.optin-form {
+  width: 340px;
+    margin: 50px auto;
+   /* background:rgba(0, 0, 0, 0.3); */
+  background: rgba(19,28,39,0.5);
+    
+}
+  .optin-form form {
+    margin-bottom: 15px;
+      background: rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      padding: 30px;
+  }
+  .optin-form h2 {
+      margin: 0 0 15px;
+      color:white;
+      font-size: 1.5rem;
+  }
+  .optin-form p {
+    color:#fff;
+  }
+  .form-control, .btn {
+      min-height: 38px;
+      border-radius: 2px;
+  }
+  .btn-optin {        
+      font-size: 15px;
+      font-weight: bold;
+      background-color: #ff8300;
+  }
+
+
+
 /* 
 Contact section  */
 
-.discount-form{
+/* .discount-form{
     height:100vh;
     display:flex;
     justify-content: center;
@@ -489,55 +540,10 @@ button[type="submit"] {
   margin-bottom: 20px;
   background-color: #e84610;
   color: #fafafa;
-}
-
-
-/* #contact {
-  min-height: 100vh;
-  background:linear-gradient(rgba(0,0,0,0.5), transparent), 
-  url(/img/bkg-contact.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-
-  }
-  .form-wrapper {
-    background:rgba(19,28,39,0.4);
-    width:40%
-    color white; 
-    border-radius: 20px;
-  }
-
-.form-head {
-  color: white;
-  text-align: center;
-  padding: 4rem 
-  
-}
-
-.name-form,
-.email-form{
-  padding:3rem;
-  text-align:center;
- }
-.form-wrapper label{
-  margin: 0rem 3rem;
-  font-size: 2rem;
-  color:white
-}
-.form-wrapper button {
-  width:100%;
-  padding: 2rem;
-  margin-top:8rem;
-  border-bottom-left-radius:20px;
-  border-bottom-right-radius:20px;
-  background-color: #ff8300;
-  }
-.form-wrapper input{
-  padding:1rem 3rem;
 } */
+
+
+
 
 /* Footer Section */
 footer {
