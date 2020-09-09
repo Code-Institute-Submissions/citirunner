@@ -73,10 +73,10 @@
   margin-top: 0;
 }
    /* INTRO SECTION  */
- .callout-container {
-  height: 100vh;
 
-  background: url("img/runner10x.png") no-repeat bottom right
+ /* .callout-container {
+  height: 100vh;
+  background: url("../img/runner10x.png") no-repeat bottom right
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -86,7 +86,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-}
+} */
 
 
 
@@ -119,7 +119,7 @@
 }
 
 
-  /* .intro-container {
+  .intro-container {
       height: 100vh;
       background: url("../img/runner10x.png") no-repeat center center fixed;
       -webkit-background-size: cover;
@@ -296,7 +296,8 @@ button.btn-orange {
 
 
 
-/* Running Route Section */
+/* ---------------------Running Route Gallery*/
+
 .run-gallery {
   height: 100vh
 }
@@ -428,12 +429,18 @@ img.hover-shadow {
 }
 
 /* 
-Gym Location Map */
+------------------------Gym Location Map */
 
 .container-map {
     height:100vh;
     }
-
+.content-header {
+background-color: gray;
+color: white;
+}
+.content-header h4{
+    color: white;
+}
 
 .alert {
     max-width: 800px;
