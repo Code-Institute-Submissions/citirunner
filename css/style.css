@@ -18,9 +18,109 @@
       margin-bottom: 30px;
   } 
    /* INTRO SECTION  */
-  .intro-container {
+ .callout-container {
+  height: 100vh;
+
+  background: url("../img/runner10x.png") no-repeat bottom right
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+
+.content-container {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+/* Jumbotron */
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.jumbotron .lead {
+  color: #fff;
+  margin: 25px 0;
+}
+
+.jumbotron small {
+  font-size: 60%;
+  font-style: italic;
+  color: #d0d0d0;
+}
+
+/* Block dividers */
+
+.block-divider {
+  width: 75px;
+  height: 5px;
+  border: 0;
+  background-color: #ff8300;
+}
+
+.block-divider--orange {
+  background-color: #ff8300;
+}
+
+
+.block-divider--short {
+  width: 35px;
+}
+
+/* Buttons */
+
+.btn--cta {
+  font-weight: bold;
+  border-radius: 23px;
+  width: 160px;
+}
+
+.btn-orange {
+  color: black;
+  background-color: #ff8300;
+  border-color: #ff8300;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+  background-color: #df4929;
+  border-color: #df4929;
+  color: white;
+}
+/* Page Headers */
+
+.page-header {
+  margin-bottom: 0;
+  border-bottom: 0;
+  text-align: center;
+  background-color:#5F6061;
+  color:#fff;
+}
+
+.page-header h2 {
+  margin-top: 0;
+}
+
+
+  /* .intro-container {
       height: 100vh;
-      background: url("../img/Runner9.jpg") no-repeat center center fixed;
+      background: url("../img/runner10x.png") no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
        -o-background-size: cover;
@@ -34,7 +134,7 @@
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
     color:white;
-  }
+  } */
 
 button.btn-orange {
   background-color: #ff8300;
