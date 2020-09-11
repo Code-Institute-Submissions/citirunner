@@ -435,7 +435,7 @@ button[type="submit"] {
 /* Footer Section */
 .btn-footer {
   background-color: #ff8300; 
-  color: black;
+  color: white;
   font-weight: 500;
   font-size: 9px;
   padding: 10px 5px; 
@@ -448,6 +448,9 @@ button[type="submit"] {
   color: #fafafa;
   min-height: 120px; 
   margin: 0;
+}
+.footer h5  {
+text-transform: uppercase;
 }
 
 
@@ -467,7 +470,7 @@ button[type="submit"] {
   line-height: 7px;
   text-align: center;
   color: #fafafa;
-  background: #5F6061;
+  background: dimgray;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webikit-transition: all 0.35s ease-in-out;
