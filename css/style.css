@@ -432,27 +432,75 @@ button[type="submit"] {
 
 
 /* Footer Section */
-footer {
-  color:white;
-  background: rgba(19,28,39,1); 
+.btn-footer {
+  background-color: #ff8300; 
+  color: black;
+  font-weight: 500;
+  font-size: 9px;
+  padding: 10px 5px; 
+  border-radius: 23px;
+  cursor: pointer;
+  width: 40%;
+  } 
+  footer {
+  background-color: #5F6061;
+  color: #fafafa;
+  min-height: 120px; 
+  margin: 0;
 }
-.footer-wrapper {
-  display: flex; 
-  padding: 2rem; 
-  width: 90%;
-  margin: auto; 
-  align-items: center; 
-  min-height: 10vh;
-  flex-wrap: wrap; 
+
+
+#footer-details {
+  padding: 20px;
+  background-color:#5F6061; 
 }
-.footer h5 {
-  font-size:2rem;
-  flex: 1 1 40rem;
+.social-links {
+  padding-bottom: 15px;
 }
-.footer ul{
-  display:flex; 
-  list-style :none;
-  flex: 1 1 40rem;
-  justify-content: space-between;
-  align-items: center;
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0; 
+  border-radius: 50%;
+  font-size: 12px; 
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #5F6061;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webikit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
+.social-links li a i:hover {
+  background: #ff8300;
+}
+
+/* Media Query Section */
+
+
+ @media screen and (max-width: 932px) {  
+  
+ html {
+    font-size: 45%;
+  } 
+ body {
+overflow-x: hidden;
+  }
+  
+  #logo {  
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .bg-img{ 
+      align-content: center;
+  }
+   
+  .form-wrapper {
+    width: 80%;
+  }
+   footer {
+    text-align: center;
+ 
+}  
