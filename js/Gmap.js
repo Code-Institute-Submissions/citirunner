@@ -1,11 +1,11 @@
 
 function initMap() {
-  var center = {lat: 40.7625587, lng: -73.9733541};
+  var center = {lat: 40.7628425, lng: -73.9715092};
   
   var locations = [
     ['Belvista Hotel<br>\
-    57 E 57th St, New York, NY 10022, United States<br>\
-   <a href="https://www.fourseasons.com/newyork/">Website</a>',40.7625587, -73.9733541],
+    480 Park Ave, New York, NY 10022, United States<br>\
+   <a href="https://www.belvistahotels.com/newyork/">Website</a>',40.7628425, -73.9715092],
     ['New York Sports Club<br>\
     502 Park Ave New York NY 10022<br>\
    <a href="https://www.newyorksportsclubs.com/clubs/59th-park">Website</a>',40.7617002, -73.9773837],

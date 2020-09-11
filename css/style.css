@@ -164,7 +164,7 @@ button.btn-orange {
 
 .container-weather{
     height:100vh;
-   background: url("img/runner10x.png") no-repeat bottom right
+   background: url("../img/runner10x.png") no-repeat bottom right
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -464,8 +464,7 @@ btn .btn-warning{
  /* CONTACT FORM */
  .container-optin{
   height: 100vh;
-
-  background: url("../img/contact-bg.png") no-repeat bottom right
+  background: url("../img/bkg-contact.jpg") no-repeat bottom right
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
