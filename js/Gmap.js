@@ -4,7 +4,7 @@ function initMap() {
   
   var locations = [
     ['Belvista Hotel<br>\
-    480 Park Ave, New York, NY 10022, United States<br>\
+    480 Park Ave, New York, NY 10022, United States <br>\
    <a href="https://www.belvistahotels.com/newyork/">Website</a>',40.7628425, -73.9715092],
     ['New York Sports Club<br>\
     502 Park Ave New York NY 10022<br>\
