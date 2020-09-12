@@ -67,10 +67,13 @@
   text-align: center;
   background-color:#5F6061;
   color:#fff;
+   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .page-header h2 {
   margin-top: 0;
+ 
 }
    /* INTRO SECTION  */
 
@@ -118,24 +121,6 @@
 }
 
 
-/* 
-  .intro-container {
-      height: 100vh;
-      background: url("../img/runner10x.png") no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-       -o-background-size: cover;
-       position: relative;
-       background-size: cover;
-     display: flex; 
-	align-items: center;
-	justify-content: center;
-	position: relative;
-	max-width: 100% 
-    padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
-    color:white;
-  }  */
 
 button.btn-orange {
   background-color: #ff8300;
@@ -149,20 +134,7 @@ button.btn-orange {
     display:flex;
     
 } */
-/* WEATHER PAGE  */
-/* .row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
 
-.column {
-  display: flex;
-  flex-direction: column; 
-  flex-basis: 100%;
-  flex: 1;
-} */
 /* Weather-APP  SECTION*/
 
 .intro-container {
