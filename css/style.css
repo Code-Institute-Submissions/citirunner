@@ -162,10 +162,10 @@ button.btn-orange {
 }
 /* Weather-APP  SECTION*/
 
-.container-weather{
+.container-weather-checker{
     height:100vh;
-   background: url("../img/runner10x.png") no-repeat bottom right
-    fixed;
+   /* background: url("../img/runner10x.png") no-repeat bottom right
+    fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
