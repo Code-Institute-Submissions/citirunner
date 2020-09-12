@@ -340,7 +340,7 @@ btn .btn-warning{
 
 
  /* CONTACT FORM */
- .container-optin{
+ .optin-container{
   height: 100vh;
   background: url("../img/bkg-contact.jpg") no-repeat bottom right
     fixed;
@@ -389,36 +389,7 @@ btn .btn-warning{
 
 
 
-/* 
-Contact section  */
-
-/* .discount-form{
-    height:100vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact-heading {
-  font-family: "Exo", sans-serif;
-  font-weight: 300;
-  margin-top: 25px;
-  margin-bottom: 20px;
-}
-
-
-.center-form {
-  padding-top: 10px;
-  margin: 0 auto;
-  max-width: 70%;
-}
-
-button[type="submit"] {
-  margin-top: 15px;
-  margin-bottom: 20px;
-  background-color: #e84610;
-  color: #fafafa;
-} */
+ 
 
 
 
@@ -443,11 +414,14 @@ button[type="submit"] {
 .footer h5  {
 text-transform: uppercase;
 }
-
+.fas {
+    color: #fff;
+}
 
 #footer-details {
   padding: 20px;
-  background-color:#5F6061; 
+  background-color:#5F6061;
+  color:#fff; 
   }
   #footer-details h5 {
       text-transform: uppercase; 
