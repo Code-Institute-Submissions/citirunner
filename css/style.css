@@ -183,6 +183,10 @@ button.btn-orange {
 .intro-container h4{
   color: white;
 }
+.intro-container p {
+color : #fff;
+font-weight: 400;
+}
 
 
 .app-wrap {
