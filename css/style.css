@@ -74,7 +74,7 @@
 }
    /* INTRO SECTION  */
 
- /* .callout-container {
+  .callout-container {
   height: 100vh;
   background: url("../img/runner10x.png") no-repeat bottom right
     fixed;
@@ -86,7 +86,12 @@
   align-items: center;
   justify-content: center;
   position: relative;
-} */
+  	max-width: 100% 
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    color:white;
+  } 
+
 
 
 
@@ -112,13 +117,8 @@
   margin: 25px 0;
 }
 
-.jumbotron small {
-  font-size: 60%;
-  font-style: italic;
-  color: #d0d0d0;
-}
 
-
+/* 
   .intro-container {
       height: 100vh;
       background: url("../img/runner10x.png") no-repeat center center fixed;
@@ -135,19 +135,19 @@
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
     color:white;
-  } */
+  }  */
 
 button.btn-orange {
   background-color: #ff8300;
 }
-/* HOME PAGE  */
+/* HOME PAGE 
 .container-home {
     height:100vh; 
     display:flex;
     
-}
+} */
 /* WEATHER PAGE  */
-.row {
+/* .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -159,13 +159,14 @@ button.btn-orange {
   flex-direction: column; 
   flex-basis: 100%;
   flex: 1;
-}
+} */
 /* Weather-APP  SECTION*/
 
-.container-weather-checker{
-    height:100vh;
-   /* background: url("../img/runner10x.png") no-repeat bottom right
-    fixed; */
+.weather-container {
+  height: 100vh;
+
+  background: url("../img/runner10x.png") no-repeat bottom right
+    fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -174,7 +175,13 @@ button.btn-orange {
   align-items: center;
   justify-content: center;
   position: relative;
-} 
+}
+.weather-container h2 
+ {
+  color: white;
+}
+.weather-container h4{
+  color: white;
 }
 
 
