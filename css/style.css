@@ -162,7 +162,7 @@ button.btn-orange {
 } */
 /* Weather-APP  SECTION*/
 
-.weather-container {
+.intro-container {
   height: 100vh;
 
   background: url("../img/runner10x.png") no-repeat bottom right
@@ -176,11 +176,11 @@ button.btn-orange {
   justify-content: center;
   position: relative;
 }
-.weather-container h2 
+.intro-container h2 
  {
   color: white;
 }
-.weather-container h4{
+.intro-container h4{
   color: white;
 }
 
