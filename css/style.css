@@ -295,6 +295,8 @@ font-weight: 400;
 .content-header {
 background-color: #5F6061;
 color: white;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 .content-header h4{
     color: white;
@@ -317,6 +319,7 @@ btn .btn-warning{
     height: 80%;
  
   margin:  20px 5px 10px 5px;
+  padding-bottom:30px;
 }
 
 
@@ -445,7 +448,13 @@ text-transform: uppercase;
 #footer-details {
   padding: 20px;
   background-color:#5F6061; 
-}
+  }
+  #footer-details h5 {
+      text-transform: uppercase; 
+  }
+  #footer-details p{
+      
+  }
 .social-links {
   padding-bottom: 15px;
 }
@@ -458,14 +467,14 @@ text-transform: uppercase;
   line-height: 7px;
   text-align: center;
   color: #fafafa;
-  background: dimgray;
+  background: #eb8100;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webikit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
 }
 .social-links li a i:hover {
-  background: #ff8300;
+  background: #f8d165;
 }
 
 /* Media Query Section */
