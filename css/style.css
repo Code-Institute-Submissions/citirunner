@@ -140,6 +140,9 @@
 button.btn-orange {
   background-color: #ff8300;
 }
+.intro-text{
+    background-color: radial-gradient(black, transparent);
+}
 /* HOME PAGE 
 .container-home {
     height:100vh; 
