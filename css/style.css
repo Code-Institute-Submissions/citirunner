@@ -100,7 +100,7 @@
     /* overflow: hidden; */
 }
 .navbar-custom {
-  background-color:#65676B; 
+  background-color:#4E5A67; 
  
 }
 
@@ -308,14 +308,15 @@ font-weight: 400;
 }
 
  
-------------------------Gym Location  G Map */
+/* Gym Location  G Map */ 
+
 
  .container-map {
     height:100vh;
     margin-bottom: 30px;
     padding-bottom: 20px;
     } 
-    
+
 .content-header {
 background-color: #4E5A67;
 color: white;
