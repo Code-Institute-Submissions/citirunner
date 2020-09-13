@@ -89,7 +89,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  	max-width: 100% 
+  	max-width: 100% ; 
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
     color:white;
@@ -125,15 +125,8 @@
 button.btn-orange {
   background-color: #ff8300;
 }
-.intro-text{
-    background-color: radial-gradient(black, transparent);
-}
-/* HOME PAGE 
-.container-home {
-    height:100vh; 
-    display:flex;
-    
-} */
+
+
 
 /* Weather-APP  SECTION*/
 
@@ -163,9 +156,7 @@ color : #fff;
 font-weight: 400;
 }
 
-/* .text-intro{
- text-box{  background-color: rgba(0,0,0,0.5); color:#fff; display: inline; padding: 10px; }   
-} */
+
 
 .app-wrap {
   position: relative;
@@ -175,7 +166,7 @@ font-weight: 400;
   min-height: 30vh;
   width: 250px;
   background-color: #ff8300;
-  margin:50px,0;
+  margin: 50px 0;
 
   display: block;
   margin: 0 auto;
@@ -313,7 +304,7 @@ padding-bottom: 0px;
     align-self:center; 
 }
 .form-discount {
-    align: center; 
+    /* align: center;  */
     max-width: 500px;
     margin: 10px ;
 }
@@ -321,10 +312,10 @@ btn .btn-warning{
     margin: 10px 0 10px; 
 }
 #map{
-    height: 80%;
- 
-  margin:  20px 5px 10px 5px;
-  padding-bottom:30px;
+   
+ height: 80%;
+ margin: 20px 5px 10px 5px;
+ padding-bottom:30px;
 }
 
 
@@ -363,13 +354,12 @@ btn .btn-warning{
 .optin-form {
   width: 340px;
     margin: 50px auto;
-  background: rgba(78,90,103 0.6);
   padding-bottom: 5px; 
     
 }
   .optin-form form {
     margin-bottom: 15px;
-      background:  rgba(19, 28, 39, 0.4);
+      background-color:  rgba(19, 28, 39, 0.4);
       box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
       padding: 30px;
   }
@@ -481,5 +471,4 @@ overflow-x: hidden;
   }
    footer {
     text-align: center;
- 
-}  
+ }  

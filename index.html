@@ -13,10 +13,10 @@
       <link rel="icon" href="img/cr-favicon.jpg" type="image/x-icon">
 <title>CitiRunner</title>
 
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
 </script>
-<script type="text/javascript">
+<script>
+
    (function(){
       emailjs.init("user_SpoKXHilq98mOnRqmWgZo");
    })();
@@ -64,8 +64,9 @@
                   <hr class="block-divider block-divider-short">
                </div>
             </div>
-            <div class="container-weather my-5 text-center">
-               <div class="row">
+
+             <div class="container-weather my-5 text-center"> 
+                <div class="row">
                   <div class="col-12 col-md-6 col-lg-4">
                      <div class="app-wrap">
                         <div class="app-title">
@@ -76,7 +77,7 @@
                         </div>
                         <div class="notification"></div>
                         <div class="weather-container">
-                           <div class="weather-icon"><img src="icons/unknown.png" /></div>
+                           <div class="weather-icon"><img src="icons/unknown.png"></div>
                            <div class="temperature-value">
                               <p>25°<span>C</span></p>
                            </div>
@@ -89,6 +90,8 @@
                         </div>
                      </div>
                   </div>
+                <!-- </div>
+            </div> -->
               
                    <div class ="col-12 col-md-6 col-lg-4"> 
                      <h2>Nice Weather?</h2>
@@ -115,23 +118,10 @@
 
      <!-- Run Gallery Section -->
 
-   <!-- Run Gallery Section -->
-      <!-- <div class ="container-fluid run-gallery">
-         <div class="row">
-                  <div class=" col-12 page-header">
-                   <h2 class="text-uppercase text-center">Choose a Route for Your Run</h2>  
-                   <hr class="block-divider block-divider-short ">
-                   <h3 class="text-center"> Pick A Distance and Enjoy!</h3>
-                  </div>
-                 
-                   
-           </div>
-         
-         <h2 style="text-align:center">1.5, 3, 5.5 or 6.5 Mile Runs </h2>
-         <!-- Images used to open the gallery-->
+ 
       <div class="container-wrapper">
          <div class="container-fluid run-gallery ">
-            <!-- <section class="personal-trainer">    -->
+           
             <div class="row">
                <div class="col-12 page-header">
                   <h2 class="text-uppercase">Choose Your Run Route</h2>
@@ -144,30 +134,31 @@
                      <h2 class= "text-center mt-2">Choose Your 2-3 mile Run.. </h2>
                         <div class="row mb-2 p-4">
                             <a href="../img/2.5mile-run.png" data-toggle="lightbox" data-gallery="example-gallery" class=" col-sm-4">
-                                <img src="../img/2.5mile-run.png" class="img-fluid">
+                                <img src="../img/2.5mile-run.png"  alt="2m-route" class="img-fluid">
                             </a>
                             <a href="../img/2mile-run.png" data-toggle="lightbox" data-gallery="example-gallery" class=" col-sm-4">
-                                <img src="../img/2mile-run.png" class="img-fluid">
+                                <img src="../img/2mile-run.png" alt="2m-route" class="img-fluid">
                             </a>
                             <a href="../img/3-mile-run.png" data-toggle="lightbox" data-gallery="example-gallery" class="d-none d-lg-block col-sm-4">
-                                <img src="../img/3-mile-run.png " class="img-fluid">
+                                <img src="../img/3-mile-run.png" alt="3m-route" class="img-fluid">
                             </a>
                            </div>
                             <h2 class= "text-center ">Choose Your 5-6 Mile Run.. </h2>
                         <div class="row mb-2 p-4">
                             <a href="../img/5mile-run.png" data-toggle="lightbox" data-gallery="example-gallery" class=" col-sm-4">
-                                <img src="../img/5mile-run.png" class="img-fluid">
+                                <img src="../img/5mile-run.png" alt="5m-route" class="img-fluid">
                             </a>
                             <a href="../img/5mile-CP.png" data-toggle="lightbox" data-gallery="example-gallery" class=" col-sm-4">
-                                <img src="../img/5mile-CP.png" class="img-fluid">
+                                <img src="../img/5mile-CP.png" alt="5m-route" class="img-fluid">
                             </a>
                             <a href="../img/6mile-run.png" data-toggle="lightbox" data-gallery="example-gallery" class="d-none d-lg-block col-sm-4">
-                                <img src="../img/6mile-run.png" class="img-fluid">
+                                <img src="../img/6mile-run.png"  alt="6m-route" class="img-fluid">
                             </a>
                         </div>
                     </div>
                 </div>  
-
+             </div>
+         </div> 
 
 
 
@@ -216,15 +207,15 @@
           <div class = "container-fluid optin-container">
             <div class ="row ">
             <div class = "col-12">
-              <section class="form">
+              <section class="form"> 
                   <div class="optin-form">
                      <form onsubmit = "return sendMail(this);">
                         <h2 class="text-center">Get Your Discount Here!</h2>
                         <div class="form-group">
-                           <input type="text" name="name" class="form-control id = "fullname" placeholder="Name" required="required"/>
+                           <input type="text" name="name" class="form-control" id ="fullname" placeholder = "Name" required="required"/>
                         </div>
                         <div class="form-group">
-                           <input type="text " name= "emailaddress" class="form-control" id="emailaddress" placeholder="Email" required="required"/>
+                           <input type="text" name="email" class="form-control" id="emailaddress" placeholder="Email" required="required"/>
                         </div>
                         <div class="form-group">
                            <button type="submit" class="btn btn-optin btn-block">Send My Gym Pass Discount! </button>
