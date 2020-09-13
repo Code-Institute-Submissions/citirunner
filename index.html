@@ -1,314 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/sandstone/bootstrap.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="icon" href="img/cr-favicon.jpg" type="image/x-icon">
-<title>CitiRunner</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/sandstone/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+       <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/cr-favicon.jpg" type="image/x-icon">
+        <title>CitiRunner</title>
+    </head>
 
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-</script>
-<script>
-
-   (function(){
-      emailjs.init("user_SpoKXHilq98mOnRqmWgZo");
-   })();
-  </script> 
-
-</head>
-
-<body>
-
-  <div class="container-fluid callout-container ">
-         <!-- Callout Section  -->
-         <div class="row ">
-            <div class="col-12">
-               <section class="callout jumbotron text-center">
-                  <h1 class="jumbotron-header">Run Safe, Run Smart<br> with CitiRunner</h1>
-                  <hr class="block-divider block-divider-short">
-                  <p class="lead"> Weather Checker<br> Route & Distance Mapper<br>
-                     Local Gym Info & Discounts<br> Personal Trainer Sessions
-                     <span class="d-inline d-sm-none"><br></span>
-                     <strong><mark>The first one is free!</mark></strong>
-                  </p>
-                  <div class="dropdown">
-                     <button class="btn btn-orange dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     Choose Your Belvista Hotel Location
-                     </button>
-                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#New-York ">New York</a>
-                        <a class="dropdown-item" href="#">London action</a>
-                        <a class="dropdown-item" href="#">Tokyo</a>
-                     </div>
-                  </div>
-               </section>
+    <body>
+        <div class="container-fluid callout-container ">
+            <!-- Callout Section  -->
+            <div class="row ">
+                <div class="col-12">
+                    <section class="callout jumbotron text-center">
+                        <h1 class="jumbotron-header">Run Safe, Run Smart<br> with CitiRunner</h1>
+                        <hr class="block-divider block-divider-short">
+                        <p class="lead"> Weather Checker<br> Route & Distance Mapper<br>
+                            Local Gym Info & Discounts<br> Personal Trainer Sessions
+                            <span class="d-inline d-sm-none"><br></span>
+                            <strong><mark>The first one is free!</mark></strong>
+                        </p>
+                        <div class="dropdown">
+                            <button class="btn btn-orange dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Choose Your Belvista Hotel Location
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#New-York ">New York</a>
+                                <a class="dropdown-item" href="#">London action</a>
+                                <a class="dropdown-item" href="#">Tokyo</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
-         </div>
-      </div>
-
-
-  
-    <!--  Weather Section  -->
-      <div class="container-fluid  intro-container ">
-         <section class="weather">
-            <div class="row">
-               <div class="col-12 ">
-                  <h2 class="text-uppercase text-center">Check Your Weather Here...</h2>
-                  <hr class="block-divider block-divider-short">
-               </div>
-            </div>
-
-             <div class="container-weather my-5 text-center"> 
+        </div>
+        <!--  Weather Section  -->
+        <div class="container-fluid  intro-container ">
+            <section class="weather">
                 <div class="row">
-                  <div class="col-12 col-md-6 col-lg-4">
-                     <div class="app-wrap">
-                        <div class="app-title">
-                           <p>Your Weather Today</p>
+                    <div class="col-12 ">
+                        <h2 class="text-uppercase text-center">Check Your Weather Here...</h2>
+                        <hr class="block-divider block-divider-short">
+                    </div>
+                </div>
+                <div class="container-weather my-5 text-center">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="app-wrap">
+                                <div class="app-title">
+                                    <p>Your Weather Today</p>
+                                </div>
+                                <div class="date">
+                                    <p>Monday 17 August 2020</p>
+                                </div>
+                                <div class="notification"></div>
+                                <div class="weather-container">
+                                    <div class="weather-icon"><img src="icons/unknown.png"></div>
+                                    <div class="temperature-value">
+                                        <p>25°<span>C</span></p>
+                                    </div>
+                                    <div class="temperature-description">
+                                        <p>Sunny</p>
+                                    </div>
+                                    <div class="location">
+                                        <p>London</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="date">
-                           <p>Monday 17 August 2020</p>
+                        <!-- </div>
+                            </div> -->
+                        <div class ="col-12 col-md-6 col-lg-4">
+                            <h2>Nice Weather?</h2>
+                            <h4>Choose Your Run Route and DistanceS</h4>
+                            <p>Lots of options</p>
+                            <a class="btn btn-orange btn-lg" href="#" role="button">I Want To Run</a>
                         </div>
-                        <div class="notification"></div>
-                        <div class="weather-container">
-                           <div class="weather-icon"><img src="icons/unknown.png"></div>
-                           <div class="temperature-value">
-                              <p>25°<span>C</span></p>
-                           </div>
-                           <div class="temperature-description">
-                              <p>Sunny</p>
-                           </div>
-                           <div class="location">
-                              <p>London</p>
-                           </div>
+                        <div class=" text-intro col-12 col-md-6 col-lg-4">
+                            <h2> Raining Today?</h2>
+                            <h4>Find a Gym or Yoga Class Nearby</h4>
+                            <p>Lots of options</p>
+                            <a class="btn btn-orange btn-lg" href="#" role="button">Find A Gym</a>
                         </div>
-                     </div>
-                  </div>
-                <!-- </div>
-            </div> -->
-              
-                   <div class ="col-12 col-md-6 col-lg-4"> 
-                     <h2>Nice Weather?</h2>
-                     <h4>Choose Your Run Route and DistanceS</h4>
-                     <p>Lots of options</p>
-                     <a class="btn btn-orange btn-lg" href="#" role="button">I Want To Run</a>
-                  </div>
-                 
-                  
-                
-                   <div class=" text-intro col-12 col-md-6 col-lg-4"> 
-                     <h2> Raining Today?</h2>
-                     <h4>Find a Gym or Yoga Class Nearby</h4>
-                     <p>Lots of options</p>
-                     <a class="btn btn-orange btn-lg" href="#" role="button">Find A Gym</a>
-                  </div>
-               </div>
-         </section>
-         </div>
-      
-   
-
-
-
-     <!-- Run Gallery Section -->
-
- 
-      <div class="container-wrapper">
-         <div class="container-fluid run-gallery ">
-           
-            <div class="row">
-               <div class="col-12 page-header">
-                  <h2 class="text-uppercase">Choose Your Run Route</h2>
-                  <hr class="block-divider block-divider-short">
-                  <h3> Safe & Scenic-Enjoy! </h3>
-               </div>
-            </div>
- <div class="row justify-content-center">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Run Gallery Section -->
+        <div class="container-wrapper">
+            <div class="container-fluid run-gallery ">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Choose Your Run Route</h2>
+                        <hr class="block-divider block-divider-short">
+                        <h3> Safe & Scenic-Enjoy! </h3>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
                     <div class="col-md-10">
-                     <h2 class= "text-center mt-2">Choose Your 2-3 mile Run.. </h2>
+                        <h2 class= "text-center mt-2">Choose Your 2-3 mile Run.. </h2>
                         <div class="row mb-2 p-4">
-                            <a href="../img/2.5mile-run.png" data-toggle="lightbox" data-gallery="example-gallery" class=" col-sm-4">
+                            <a href="../img/2.5mile-run.png" data-fancybox="gallery" data-caption="Whatever Text Here" class=" col-sm-4">
                                 <img src="../img/2.5mile-run.png"  alt="2m-route" class="img-fluid">
+                                <p class="gallery-text">click to enlarge</p>
                             </a>
-                            <a href="../img/2mile-run.png" data-toggle="lightbox" data-gallery="example-gallery" class=" col-sm-4">
+                            <a  href ="../img/2mile-run.png"data-fancybox="gallery"  data-caption="Whatever Text Here"  class=" col-sm-4">
                                 <img src="../img/2mile-run.png" alt="2m-route" class="img-fluid">
+                                <p class="gallery-text">click to enlarge</p>
                             </a>
-                            <a href="../img/3-mile-run.png" data-toggle="lightbox" data-gallery="example-gallery" class="d-none d-lg-block col-sm-4">
+                            <a  href="../img/3-mile-run.png" data-fancybox="gallery" data-caption="Whatever Text Here" class="d-none d-lg-block col-sm-4">
                                 <img src="../img/3-mile-run.png" alt="3m-route" class="img-fluid">
+                                <p class="gallery-text">click to enlarge</p>
                             </a>
-                           </div>
-                            <h2 class= "text-center ">Choose Your 5-6 Mile Run.. </h2>
+                        </div>
+                        <h2 class= "text-center ">Choose Your 5-6 Mile Run.. </h2>
                         <div class="row mb-2 p-4">
-                            <a href="../img/5mile-run.png" data-toggle="lightbox" data-gallery="example-gallery" class=" col-sm-4">
+                            <a href="../img/5mile-run.png" data-fancybox="gallery"  data-caption="Whatever Text Here" class=" col-sm-4">
                                 <img src="../img/5mile-run.png" alt="5m-route" class="img-fluid">
+                                <p class="gallery-text">click to enlarge</p>
                             </a>
-                            <a href="../img/5mile-CP.png" data-toggle="lightbox" data-gallery="example-gallery" class=" col-sm-4">
+                            <a  href="../img/5mile-CP.png" data-fancybox="gallery"  data-caption="Whatever Text Here" class=" col-sm-4">
                                 <img src="../img/5mile-CP.png" alt="5m-route" class="img-fluid">
+                                <p class="gallery-text">click to enlarge</p>
                             </a>
-                            <a href="../img/6mile-run.png" data-toggle="lightbox" data-gallery="example-gallery" class="d-none d-lg-block col-sm-4">
-                                <img src="../img/6mile-run.png"  alt="6m-route" class="img-fluid">
+                                <a href="../img/6mile-run.png" data-fancybox="gallery"  data-caption="Whatever Text Here" class="d-none d-lg-block col-sm-4">
+                                     <img src="../img/6mile-run.png"  alt="6m-route" class="img-fluid">
+                                     <p class="gallery-text">click to enlarge</p>
                             </a>
                         </div>
                     </div>
-                </div>  
-             </div>
-         </div> 
-
-
-
-
-
-
-
-
-
- <!-- Google Gym Location Map -->
-      <div class= "container-map text-center">
-         <div  class="content-header">
-               <h2>What About A Gym Session... or a Yoga Class?</h2>
-               <hr class ="block-divider block-divider-short">
-               <h4> If it's Raining -Find a Local Workout! </h4>
+                </div>
+            </div>
+        </div>
+        <!-- Google Gym Location Map -->
+        <div class= "container-map text-center">
+            <div  class="content-header">
+                <h2>What About A Gym Session... or a Yoga Class?</h2>
+                <hr class ="block-divider block-divider-short">
+                <h4> If it's Raining -Find a Local Workout! </h4>
             </div>
             <div class="col-12">
-
-               <!-- <div class="container-fluid alert-container">
-                  <div class="row d-none d-sm-block">
-                     <div class="col-12">
-                        <div class="site-wide-alert alert alert-warning">
-                           <strong>Get 25% Off Your Gym Pass</strong>
-                           Sign Up and Get Your Discount! <a href="/">See Here For Details</a>
-                        </div>
-                     </div>
-                  </div>
-               </div> -->
-            
-         </div>
-         <div id= "map"></div>
-      </div>
-
-
-
-<!-- Contact Section -->
-    
-         <div class="container-fluid contact-container ">
-           <div class="row">
-               <div class="col-12 page-header">
-                  <h2 class="text-uppercase">25% Off Your Daily Gym Pass </h2>
-                  <hr class="block-divider block-divider-short">
-                  <h3>Save on Your Gym Pass & Trainer Session</h3>
-               </div>
+                <!-- <div class="container-fluid alert-container">
+                    <div class="row d-none d-sm-block">
+                       <div class="col-12">
+                          <div class="site-wide-alert alert alert-warning">
+                             <strong>Get 25% Off Your Gym Pass</strong>
+                             Sign Up and Get Your Discount! <a href="/">See Here For Details</a>
+                          </div>
+                       </div>
+                    </div>
+                    </div> -->
             </div>
-          <div class = "container-fluid optin-container">
-            <div class ="row ">
-            <div class = "col-12">
-              <section class="form"> 
-                  <div class="optin-form">
-                     <form onsubmit = "return sendMail(this);">
-                        <h2 class="text-center">Get Your Discount Here!</h2>
-                        <div class="form-group">
-                           <input type="text" name="name" class="form-control" id ="fullname" placeholder = "Name" required="required"/>
-                        </div>
-                        <div class="form-group">
-                           <input type="text" name="email" class="form-control" id="emailaddress" placeholder="Email" required="required"/>
-                        </div>
-                        <div class="form-group">
-                           <button type="submit" class="btn btn-optin btn-block">Send My Gym Pass Discount! </button>
-                        </div>
-                     </form>
-                     <p class="text-center">We will never share your information</p>
-                  </div>
-           
-             </section>
-              </div> 
-         </div>
-     
+            <div id= "map"></div>
         </div>
-       </div> 
-
-
-
-   
-    
- 
-      <!--Footer Section  -->
-      <footer class=" container-fluid container-footer">
-         <div id="footer-details" class="row">
-            <div class="col-sm-4">
-               <h5 > Belvista Hotel NY </h5>
-               <!-- <button class="btn btn-footer" data-toggle="modal" data-target="#signUpModal">I Want the Brochure!</button>  -->
-               <h6> 408 Park Ave, New York NY 10002 USA </h6>
+        <!-- Contact Section -->
+        <div class="container-fluid contact-container ">
+            <div class="row">
+                <div class="col-12 ">
+                    <div class="page-header">
+                        <h2 class="text-uppercase">25% Off Your Daily Gym Pass </h2>
+                        <hr class="block-divider block-divider-short">
+                        <h3>Save on Your Gym Pass & Trainer Session</h3>
+                    </div>
+                    <!-- <section class="form">  -->
+                    <div class="optin-form">
+                        <form onsubmit = "return sendMail(this);">
+                            <h2 class="text-center">Get Your Discount Here!</h2>
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id ="fullname" placeholder = "Name" required="required"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required="required"/>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-orange btn-block">Send My Gym Pass Discount! </button>
+                            </div>
+                        </form>
+                        <p class="text-center">We will never share your information</p>
+                    </div>
+                    </section>
+                </div>
             </div>
-            <div class="col-sm-4">
-               <span class="sr-only">Brochure link </span>
-               <h5 class=" uppercase ">Contact Us</h5>
-               <p class=""><a href="info@CitiRunner.com"><i class="fas fa-envelope"> info@CitiRunner.com</i></a></p>
-               <br>
-               <p class="inline-block"><i class="fas fa-phone-square-alt">  Phone: +1 212-345-6789</i></p>
+        </div>
+        </div> 
+        <!--Footer Section  -->
+        <footer class=" container-fluid container-footer">
+            <div id="footer-details" class="row">
+                <div class="col-sm-4">
+                    <h5 > Belvista Hotel NY </h5>
+                    <!-- <button class="btn btn-footer" data-toggle="modal" data-target="#signUpModal">I Want the Brochure!</button>  -->
+                    <h6> 408 Park Ave, New York NY 10002 USA </h6>
+                </div>
+                <div class="col-sm-4">
+                    <span class="sr-only">Brochure link </span>
+                    <h5 class=" uppercase ">Contact Us</h5>
+                    <p class=""><a href="info@CitiRunner.com"><i class="fas fa-envelope"> info@CitiRunner.com</i></a></p>
+                    <br>
+                    <p class="inline-block"><i class="fas fa-phone-square-alt">  Phone: +1 212-345-6789</i></p>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class=" uppercase">Social</h5>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a href="https://facebook.com" target="_blank">
+                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://youtube.com" target="_blank">
+                            <i class="fab fa-youtube-square"></i>
+                            <span class="sr-only">Youtube</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://instagram.com" target="_blank">
+                            <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span> 
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com" target="_blank">
+                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-sm-4">
-               <h5 class=" uppercase">Social</h5>
-               <ul class="list-inline social-links">
-                  <li class="list-inline-item">
-                     <a href="https://facebook.com" target="_blank">
-                     <i class="fab fa-facebook-square" aria-hidden="true"></i>
-                     <span class="sr-only">Facebook</span>
-                     </a>
-                  </li>
-                  <li class="list-inline-item">
-                     <a href="https://youtube.com" target="_blank">
-                     <i class="fab fa-youtube-square"></i>
-                     <span class="sr-only">Youtube</span>
-                     </a>
-                  </li>
-                  <li class="list-inline-item">
-                     <a href="https://instagram.com" target="_blank">
-                     <i class="fab fa-instagram-square" aria-hidden="true"></i>
-                     <span class="sr-only">Instagram</span> 
-                     </a>
-                  </li>
-                  <li class="list-inline-item">
-                     <a href="https://twitter.com" target="_blank">
-                     <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                     <span class="sr-only">Twitter</span>
-                     </a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </footer>
-  
+        </footer>
+        <script src="//code.jquery.com/jquery-2.2.4.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+       
+       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
+         <script src="https//code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBL1EfJEl3cal6PvksLZMAFi3HQefLW8WY&callback=initMap"></script>
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        <script>
+            (function(){
+               emailjs.init("user_SpoKXHilq98mOnRqmWgZo");
+            })();
 
-<script>
-// JQuery for Lightbox
-
- $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-  event.preventDefault();
-   $(this).ekkoLightbox();
- });
-
-</script>
-
-
-
-
-<script src= "js/Gmap.js"></script>
-      <script src="js/weather.js"></script>
-      <script src = "js/mail.js"></script>
-      <script src="js/main.js"></script>
-      <script src="//code.jquery.com/jquery-2.2.4.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-       <script src= "https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-      <script
-         defer
-         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBL1EfJEl3cal6PvksLZMAFi3HQefLW8WY&callback=initMap"
-         ></script>
-   </body>
+       </script>
+        
+        <script src= "js/Gmap.js"></script>
+        <script src="js/weather.js"></script>
+        <script src = "js/mail.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>

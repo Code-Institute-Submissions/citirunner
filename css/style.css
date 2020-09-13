@@ -39,11 +39,11 @@
 
 /* Buttons */
 
-.btn--cta {
+/* .btn--cta {
   font-weight: bold;
   border-radius: 23px;
   width: 160px;
-}
+} */
 
 .btn-orange {
   color: black;
@@ -51,14 +51,15 @@
   border-color: #ff8300;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
+ .btn-orange:hover,
+.btn-orange:active,
+.btn-orange:focus,
+.btn-orange:active:focus {
   background-color: #df4929;
   border-color: #df4929;
   color: white;
-}
+} 
+
 /* Page Headers */
 
 .page-header {
@@ -270,9 +271,9 @@ font-weight: 400;
   color: #293251;
 }
 
-.btn-default {
+/* .btn-default {
     background-color: #ff8300
-}
+} */
 
 
 
@@ -338,7 +339,7 @@ btn .btn-warning{
  /* CONTACT FORM */
  .contact-container{
   height: 100vh;
-  background: url("../img/bkg-contact.jpg") no-repeat bottom right
+  background: url("../img/contact-bckg.png") no-repeat bottom right
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
