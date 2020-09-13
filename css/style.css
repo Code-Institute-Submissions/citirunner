@@ -1,4 +1,9 @@
 /* GLOBAL STYLES  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
  body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
@@ -25,9 +30,11 @@
   width: 75px;
   height: 5px;
   border: 0;
+  margin:auto;
   background-color: #ff8300;
 }
 
+}
 .block-divider-orange {
   background-color: #ff8300;
 }
@@ -93,7 +100,7 @@
     /* overflow: hidden; */
 }
 .navbar-custom {
-  background-color:#868A8D; 
+  background-color:#65676B; 
  
 }
 
@@ -101,6 +108,10 @@
 	border: 0;
 }
 
+a.navlink {
+    font-size:1rem;
+    font-weight:300;
+}
    /* INTRO SECTION  */
 
 .callout-container {
@@ -299,11 +310,12 @@ font-weight: 400;
  
 ------------------------Gym Location  G Map */
 
-.container-map {
+ .container-map {
     height:100vh;
     margin-bottom: 30px;
     padding-bottom: 20px;
-    }
+    } 
+    
 .content-header {
 background-color: #4E5A67;
 color: white;
@@ -327,11 +339,10 @@ padding-bottom: 0px;
 btn .btn-warning{
     margin: 10px 0 10px; 
 }
-#map{
-   
- height: 80%;
- margin: 20px 5px 10px 5px;
- padding-bottom:30px;
+#map {
+   height: 80%;
+   margin: 20px 5px 10px 5px;
+   padding-bottom:30px;
 }
 
 

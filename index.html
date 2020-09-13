@@ -8,12 +8,25 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css">
         <link rel="icon" href="img/cr-favicon.jpg" type="image/x-icon">
         <title>CitiRunner</title>
     </head>
 
     <body> 
-    <!-- Navbar section -->
+
+         <!-- <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="site-wide-alert alert alert-warning">
+                        <strong>25% Off</strong>Save On Your Daily Gym Pass <a href="#optin">Click for Details</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+<!-- Navbar section -->
+    <div class="container-fluid nav-container">
+    <div class="row d-none d-sm-block">
+                <div class="col-12">
  <nav class="navbar navbar-dark  navbar-custom navbar-expand-sm sticky-top">     
 <img src ="img/run-logo2.png" class="navbar-brand">
 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -22,18 +35,16 @@ aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navig
 <div class="collapse navbar-collapse" id="navbarNavDropdown">
 <ul class="navbar-nav ml-auto">  
 <li class="active nav-item mr-2"><a class="nav-link" href="/"> Home</a></li>    
-<li class="nav-item mr-2"><a class="nav-link" href="/about"> About</a></li>
-<li class="nav-item mr-2"><a class="nav-link" href="/about"> About</a></li>
-<li class="nav-item mr-2"><a class="nav-link" href="/about"> About</a></li>
+<li class="nav-item mr-2"><a class="nav-link" href="#Run Routes">Run Routes</a></li>
+<li class="nav-item mr-2"><a class="nav-link" href="#Local Gyms">Local Gyms</a></li>
+<li class="nav-item mr-2"><a class="nav-link" href="#Trainers">Trainers</a></li>
 <li class="nav-item dropdown">
-
-    </li>
-      
-</ul>
+</li>
+      </ul>
       </div>
-   
-    </div>     
-  </nav> 
+       
+   </nav>
+  </div> 
         <div class="container-fluid callout-container ">
             <!-- Callout Section  -->
             <div class="row ">
@@ -126,30 +137,30 @@ aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navig
                     <div class="col-md-10">
                         <h2 class= "text-center mt-2">Choose Your 2-3 mile Run.. </h2>
                         <div class="row mb-2 p-4">
-                            <a href="../img/2.5mile-run.png" data-fancybox="gallery" data-caption="Whatever Text Here" class=" col-sm-4">
+                            <a href="../img/2.5mile-run.png" data-fancybox="gallery" data-caption="2.5 mile run " class=" col-sm-4">
                                 <img src="../img/2.5mile-run.png"  alt="2m-route" class="img-fluid">
                                 <p class="gallery-text">click to enlarge</p>
                             </a>
-                            <a  href ="../img/2mile-run.png"data-fancybox="gallery"  data-caption="Whatever Text Here"  class=" col-sm-4">
+                            <a  href ="../img/2mile-run.png"data-fancybox="gallery"  data-caption="2 mile run "  class=" col-sm-4">
                                 <img src="../img/2mile-run.png" alt="2m-route" class="img-fluid">
                                 <p class="gallery-text">click to enlarge</p>
                             </a>
-                            <a  href="../img/3-mile-run.png" data-fancybox="gallery" data-caption="Whatever Text Here" class="d-none d-lg-block col-sm-4">
+                            <a  href="../img/3-mile-run.png" data-fancybox="gallery" data-caption="3 mile run " class="d-none d-lg-block col-sm-4">
                                 <img src="../img/3-mile-run.png" alt="3m-route" class="img-fluid">
                                 <p class="gallery-text">click to enlarge</p>
                             </a>
                         </div>
                         <h2 class= "text-center ">Choose Your 5-6 Mile Run.. </h2>
                         <div class="row mb-2 p-4">
-                            <a href="../img/5mile-run.png" data-fancybox="gallery"  data-caption="Whatever Text Here" class=" col-sm-4">
+                            <a href="../img/5mile-run.png" data-fancybox="gallery"  data-caption="5 mile run " class=" col-sm-4">
                                 <img src="../img/5mile-run.png" alt="5m-route" class="img-fluid">
                                 <p class="gallery-text">click to enlarge</p>
                             </a>
-                            <a  href="../img/5mile-CP.png" data-fancybox="gallery"  data-caption="Whatever Text Here" class=" col-sm-4">
+                            <a  href="../img/5mile-CP.png" data-fancybox="gallery"  data-caption="5 miles through Central Park" class=" col-sm-4">
                                 <img src="../img/5mile-CP.png" alt="5m-route" class="img-fluid">
                                 <p class="gallery-text">click to enlarge</p>
                             </a>
-                                <a href="../img/6mile-run.png" data-fancybox="gallery"  data-caption="Whatever Text Here" class="d-none d-lg-block col-sm-4">
+                                <a href="../img/6mile-run.png" data-fancybox="gallery"  data-caption="6 mile run" class="d-none d-lg-block col-sm-4">
                                      <img src="../img/6mile-run.png"  alt="6m-route" class="img-fluid">
                                      <p class="gallery-text">click to enlarge</p>
                             </a>
@@ -159,13 +170,15 @@ aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navig
             </div>
         </div>
         <!-- Google Gym Location Map -->
-        <div class= "container-map text-center">
+         <div class= "container-map text-center">
             <div  class="content-header">
                 <h2>What About A Gym Session... or a Yoga Class?</h2>
                 <hr class ="block-divider block-divider-short">
                 <h4> If it's Raining -Find a Local Workout! </h4>
-            </div>
-            <div class="col-12">
+            </div> 
+
+
+            <!-- <div class="col-12"> -->
                 <!-- <div class="container-fluid alert-container">
                     <div class="row d-none d-sm-block">
                        <div class="col-12">
@@ -176,7 +189,7 @@ aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navig
                        </div>
                     </div>
                     </div> -->
-            </div>
+            <!-- </div> -->
             <div id= "map"></div>
         </div>
         <!-- Contact Section -->
@@ -261,9 +274,11 @@ aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navig
        
        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
         <!-- Script for FancyBox Lightbox -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
          <script src="https//code.jquery.com/jquery-3.3.1.min.js"></script>
+
          <!-- JS file for Google map  -->
         <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBL1EfJEl3cal6PvksLZMAFi3HQefLW8WY&callback=initMap"></script>
          <!-- JS file for emailjs -->
