@@ -39,11 +39,7 @@
 
 /* Buttons */
 
-/* .btn--cta {
-  font-weight: bold;
-  border-radius: 23px;
-  width: 160px;
-} */
+
 
 .btn-orange {
   color: black;
@@ -76,6 +72,35 @@
   margin-top: 0;
  
 }
+
+/* Navbar Section */
+
+.navbar-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border: 0;
+	padding: 5px;
+	width: 100%;
+   /* background-color:#507091; */
+	z-index: 1;
+    /* overflow: hidden; */
+}
+.navbar-custom {
+  background-color:#868A8D; 
+ 
+}
+
+.navbar .navbar-toggler {
+	border: 0;
+}
+
    /* INTRO SECTION  */
 
 .callout-container {
@@ -271,17 +296,7 @@ font-weight: 400;
   color: #293251;
 }
 
-/* .btn-default {
-    background-color: #ff8300
-} */
-
-
-
-
-
-
-
-/* 
+ 
 ------------------------Gym Location  G Map */
 
 .container-map {
