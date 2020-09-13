@@ -1,6 +1,6 @@
 
 function initMap() {
-  var center = {lat: 40.7628425, lng: -73.9715092};
+  var center = {lat: 40.7608111, lng: -73.9743554};
   
   var locations = [
     ['Belvista Hotel<br>\
@@ -20,7 +20,7 @@ function initMap() {
    <a href="https://halevylife.com/vital-yoga-nyc/">Website</a>', 40.7599039, -73.9693033]
   ];
 var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 16,
+    zoom: 15,
     center: center
   });
 var infowindow =  new google.maps.InfoWindow({});
