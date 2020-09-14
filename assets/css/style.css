@@ -188,12 +188,22 @@ button.btn-orange {
 .intro-container h4{
   color: white;
 }
-.intro-container p {
-color : #fff;
-font-weight: 400;
+
+.intro-text h3 {
+    color:#fff;
+ margin-bottom: 0;
+ text-transform:uppercase;  
+
 }
 
-
+/* .opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+} */
 
 .app-wrap {
   position: relative;
