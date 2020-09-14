@@ -187,11 +187,14 @@ button.btn-orange {
 }
 .intro-container h4{
   color: white;
+  margin-bottom:15px;
+  margin-top:15px;
 }
 
 .intro-text h3 {
-    color:#fff;
+ color:#fff;
  margin-bottom: 0;
+ margin-top:15px;
  text-transform:uppercase;  
 
 }
@@ -299,8 +302,7 @@ button.btn-orange {
   font-size: 1.2em;
 }
 
-.location {
-}
+
 
 .location p {
   margin: 0;
@@ -499,6 +501,30 @@ overflow-x: hidden;
     padding: 2rem;
     text-align: center;
   }
+   .callout-container{
+background: url(../img/runner594x588.png) no repeat
+ bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+   .intro-container{
+background: url(../img/runner594x588.png) no repeat
+ bottom right fixed;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  } 
 
   .bg-img{ 
       align-content: center;
@@ -509,4 +535,16 @@ overflow-x: hidden;
   }
    footer {
     text-align: center;
- }  
+ }
+
+ }
+/* 
+ @media ( min-width:320px) {
+.callout-container{
+background-image: url(../img/runner460x305.png);
+}
+.intro-container{
+background-image: url(../img/runner460x305.png);
+} */
+
+ }
