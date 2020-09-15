@@ -99,7 +99,8 @@
     /* overflow: hidden; */
 }
 .navbar-custom {
-  background-color:#4E5A67; 
+  /* background-color:#4E5A67;  */
+  background-color:#343A40;
  
 }
 
@@ -389,17 +390,19 @@ btn .btn-warning{
 
  /* CONTACT FORM */
  .contact-container{
-  height: 100vh;
+  max-height: 100vh;
   background: url("../img/contact-bckg.png") no-repeat bottom right
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  display: flex;
+ 
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-left: 0px; 
+  padding-right:0px
 }
 
 
@@ -427,19 +430,7 @@ btn .btn-warning{
       min-height: 38px;
       border-radius: 2px;
   }
-  .btn-optin {        
-      font-size: 15px;
-      font-weight: bold;
-      background-color: #ff8300;
-  }
-
-
-
- 
-
-
-
-
+  
 /* Footer Section */
 .btn-footer {
   background-color: #ff8300; 
