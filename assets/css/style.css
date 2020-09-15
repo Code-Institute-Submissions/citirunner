@@ -430,6 +430,23 @@ btn .btn-warning{
       min-height: 38px;
       border-radius: 2px;
   }
+  /* Trainer Section */
+
+.trainer-container{
+border: 0;
+padding:0;
+}
+
+.trainer img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.3);
+}
+.trainer h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
   
 /* Footer Section */
 .btn-footer {
