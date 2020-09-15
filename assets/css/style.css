@@ -435,6 +435,13 @@ btn .btn-warning{
 .trainer-container{
 border: 0;
 padding:0;
+padding-left: 0px; 
+padding-right:0px
+}
+
+.trainer {
+ margin-bottom: 3rem;
+ text-align: center;
 }
 
 .trainer img {
