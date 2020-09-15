@@ -95,8 +95,7 @@
 	border: 0;
 	padding: 5px;
 	width: 100%;
-   /* background-color:#507091; */
-	z-index: 1;
+    z-index: 1;
     /* overflow: hidden; */
 }
 .navbar-custom {
@@ -106,6 +105,8 @@
 
 .navbar .navbar-toggler {
 	border: 0;
+    height:2.5em ;
+    width: 2.5em;
 }
 
 a.navlink {
