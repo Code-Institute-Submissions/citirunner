@@ -502,7 +502,7 @@ overflow-x: hidden;
     text-align: center;
   }
    .callout-container{
- background: url(../img/runner594x588.png) no repeat
+ background: url(../img/runner594x588.png) no-repeat
  bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -514,7 +514,7 @@ overflow-x: hidden;
   position: relative;
 }
    .intro-container{
-background: url(../img/runner594x588.png) no repeat
+background: url(../img/runner594x588.png) no-repeat
  bottom right fixed;
  -webkit-background-size: cover;
   -moz-background-size: cover;
