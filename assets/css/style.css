@@ -565,13 +565,25 @@ background: url(../img/runner594x588.png) no-repeat
  }
 
  }
-/* 
- @media ( min-width:320px) {
+
+ @media ( max-width:460px) {
 .callout-container{
-background-image: url(../img/runner460x305.png);
+background-image: url("../img/runner460x305.png");
+
+background-position: center center; 
+background-attachment:scroll;     
+background-repeat: no-repeat;
+background-size: cover; 
+ }
 }
 .intro-container{
 background-image: url(../img/runner460x305.png);
-} */
+
+background-position: center center; 
+background-attachment:scroll;     
+background-repeat: no-repeat;
+background-size: cover; 
+ }
+} 
 
  }
