@@ -515,10 +515,10 @@ text-transform: uppercase;
 /* Media Query Section */
 
 
- @media screen and (max-width: 932px) {  
+ @media screen and (max-width: 760px) {  
   
  html {
-    font-size: 45%;
+    font-size: 75%;
   } 
  body {
 overflow-x: hidden;
@@ -569,16 +569,14 @@ background: url(../img/runner594x588.png) no-repeat
  @media ( max-width:460px) {
 .callout-container{
 background-image: url("../img/runner460x305.png");
-
 background-position: center center; 
 background-attachment:scroll;     
 background-repeat: no-repeat;
 background-size: cover; 
  }
-}
+
 .intro-container{
 background-image: url(../img/runner460x305.png);
-
 background-position: center center; 
 background-attachment:scroll;     
 background-repeat: no-repeat;
@@ -586,4 +584,4 @@ background-size: cover;
  }
 } 
 
- }
+ 
