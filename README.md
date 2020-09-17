@@ -1,6 +1,6 @@
 #  CitiRunner 
 
-![Image of versions ](mr19331.github.io/citirunner/img/website-mockup.png)
+![Mockup ](https://mr19331.github.io/citirunner/img/website-mockup.png)
 
 The CitiRunner  website  is designed to be an  add-on to the website of  a city-center hotel.
 
