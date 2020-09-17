@@ -448,6 +448,10 @@ padding-right:0rem
   margin-bottom: 0;
 }
 
+span#message {
+    color: white;
+}
+
 
 /* Footer Section */
 .btn-footer {

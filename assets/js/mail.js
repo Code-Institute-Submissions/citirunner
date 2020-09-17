@@ -8,13 +8,14 @@ function sendMail(contactForm){
 })
   .then(
        function (response) {
-              alert("Thank you, your discount is on its way!", response);
-            
+            //   alert("Thank you, your discount is on its way!", response);
+             $("#message").text("Thanks your discount is coming!");
            
 },
 
      function(error) {
-            alert("Sorry, There was an error!", error);
+            // alert("Sorry, There was an error!", error);
+             $("#message").text(" Sorry!There was an error");
        }
 
     );
