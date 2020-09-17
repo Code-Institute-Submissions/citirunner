@@ -1,4 +1,4 @@
-const notificationElement = document.querySelector("#message");
+
 
 function sendMail(contactForm){
   emailjs.send("gmail","gymdiscount",{
@@ -8,13 +8,13 @@ function sendMail(contactForm){
 })
   .then(
        function (response) {
-            alert("SUCCESS", response);
+              alert("Thank you, your discount is on its way!", response);
+            
+           
+},
 
-   }
-
-        },
-        function(error) {
-            alert("FAILED", error);
+     function(error) {
+            alert("Sorry, There was an error!", error);
        }
 
     );

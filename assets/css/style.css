@@ -448,7 +448,7 @@ padding-right:0rem
   margin-bottom: 0;
 }
 
-  
+
 /* Footer Section */
 .btn-footer {
   background-color: #ff8300; 
@@ -528,19 +528,22 @@ overflow-x: hidden;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; 
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  
+ 
 }
+
    .intro-container{
 background: url(../img/runner-crop.png) no-repeat
  bottom right fixed;
- -webkit-background-size: cover;
+   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;  
   display: flex;
   align-items: center;
   justify-content: center;
