@@ -1,6 +1,6 @@
 #  CitiRunner 
 
-![Image of versions ](C:\Users\Maria\Pictures\Running\Multi-Device-Website-Mockup-Generator.png)
+![Image of versions ](mr19331.github.io/citirunner/img/website-mockup.png)
 
 The CitiRunner  website  is designed to be an  add-on to the website of  a city-center hotel.
 
