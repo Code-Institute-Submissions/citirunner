@@ -10,25 +10,25 @@
       color: #303030;
   }
   h2 {
-      font-size: 24px;
+      font-size: 2rem;
       text-transform: uppercase;
       font-weight: 600;
       margin-bottom: 30px;
   }
   h4 {
-      font-size: 19px;
+      font-size: 1.5rem ;
       line-height: 1.375em;
       color: #303030;
       font-weight: 400;
-      margin-bottom: 30px;
+      margin-bottom: 2rem;
   } 
 
 
 /* Block dividers */
 
 .block-divider {
-  width: 75px;
-  height: 5px;
+  width: 4.5rem;
+  height: 0.5rem;
   border: 0;
   margin:auto;
   background-color: #ff8300;
@@ -41,7 +41,7 @@
 
 
 .block-divider--short {
-  width: 35px;
+  width: 2.5rem;
 }
 
 /* Buttons */
@@ -71,8 +71,8 @@
   text-align: center;
   background-color:#4E5A67;
   color:#fff;
-   padding-top: 10px;
-  padding-bottom: 10px;
+   padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .page-header h2 {
@@ -93,7 +93,7 @@
 .navbar {
 	margin-bottom: 0;
 	border: 0;
-	padding: 5px;
+	padding: 0.5rem;
 	width: 100%;
     z-index: 1;
     /* overflow: hidden; */
@@ -111,7 +111,7 @@
 }
 
 a.navlink {
-    font-size:1rem;
+    font-size:1.5 rem;
     font-weight:300;
 }
    /* INTRO SECTION  */
@@ -129,18 +129,12 @@ a.navlink {
   justify-content: center;
   position: relative;
   	max-width: 100% ; 
-    padding: 100px 25px;
+    padding: 8  3rem;
     font-family: Montserrat, sans-serif;
     color:white;
   } 
 
 
-
-
-.content-container {
-  padding-top: 75px;
-  padding-bottom: 75px;
-}
 /* Jumbotron */
 
 .jumbotron {
@@ -150,13 +144,13 @@ a.navlink {
 .jumbotron h1 {
   color: white;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
   color: white;
 }
 
 .jumbotron .lead {
   color: #fff;
-  margin: 25px 0;
+  margin: 3rem 0;
 }
 
 
@@ -189,14 +183,14 @@ button.btn-orange {
 }
 .intro-container h4{
   color: white;
-  margin-bottom:15px;
-  margin-top:15px;
+  margin-bottom:1rem;
+  margin-top:1rem;
 }
 
 .intro-text h3 {
  color:#fff;
  margin-bottom: 0;
- margin-top:15px;
+ margin-top:1rem;
  text-transform:uppercase;  
 
 }
@@ -216,26 +210,26 @@ button.btn-orange {
   justify-content: left;
   flex-direction: row;
   min-height: 30vh;
-  width: 250px;
+  width: 15rem;
   background-color: #ff8300;
-  margin: 50px 0;
+  margin: 3rem 0;
 
   display: block;
   margin: 0 auto;
 
-  border-radius: 10px;
-  padding-bottom: 50px;
+  border-radius: 0.8rem;
+  padding-bottom: 3rem;
 }
 
 .app-title {
-  width: 250px;
-  height: 50px;
+  width: 15rem;
+  height: 3rem;
   border-radius: 10px 10px 0 0;
 }
 
 .app-title p {
   text-align: center;
-  padding: 15px;
+  padding: 1rem;
   margin: 0 auto;
   font-size: 1.2em;
   color: #293251;
@@ -251,18 +245,18 @@ button.btn-orange {
   font-size: 1.2em;
   margin: 0;
   text-align: center;
-  padding: 10px 0;
+  padding: 0.8rem 0;
 }
 
 .weather-container {
-  width: 250px;
-  height: 260px;
+  width: 15rem;
+  height: 15.5rem;
   background-color: #f4f9ff;
 }
 
 .weather-icon {
-  width: 250px;
-  height: 128px;
+  width: 15.6rem;
+  height: 8rem;
 }
 
 .weather-icon img {
@@ -271,8 +265,8 @@ button.btn-orange {
 }
 
 .temperature-value {
-  width: 250px;
-  height: 60px;
+  width: 15.6rem;
+  height: 3.75rem;
   cursor: pointer;
 }
 
@@ -327,15 +321,15 @@ button.btn-orange {
 
  .container-map {
     height:100vh;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
+    margin-bottom: 1.8rem;
+    padding-bottom: 1.25rem;
     } 
 
 .content-header {
 background-color: #4E5A67;
 color: white;
-padding-top: 10px;
-padding-bottom: 0px;
+padding-top: 0.6rem;
+padding-bottom: 0rem;
 }
 .content-header h4{
     color: white;
@@ -349,9 +343,9 @@ padding-bottom: 0px;
   color: black;
   background-color: #ff8300;
   border-color: #eec802;
-  padding: 5px 15px;
+  padding: 0.3rem 0.9rem;
   margin-bottom: 0;
-  border: 1px solid transparent;
+  border: 0.06rem solid transparent;
   border-radius: 0;
   text-align: center;
 }
@@ -360,26 +354,26 @@ padding-bottom: 0px;
 .form-discount {
     /* align: center;  */
     max-width: 500px;
-    margin: 10px ;
+    margin: 0.6rem ;
 }
 btn .btn-warning{
-    margin: 10px 0 10px; 
+    margin: 0.6rem 0 0.6rem; 
 }
 #map {
    height: 80%;
-   margin: 20px 5px 10px 5px;
-   padding-bottom:30px;
+   margin: 1.2rem 0.5rem 0.6rem 0.5rem;
+   padding-bottom: 2rem;
 }
 
 
                      /* RUN GALLERY  */
 .gallery {
-   margin: 10px 20px;
+   margin: 0.6rem 1.5rem;
  }
 .gallery img {
   transition: 1s;
-  padding:15px;
-  width: 320px; 
+  padding: 1rem ;
+  width: 20rem; 
 }
 .gallery img:hover {
   filter: grayscale(100%);
@@ -401,25 +395,25 @@ btn .btn-warning{
   align-items: center;
   justify-content: center;
   position: relative;
-  padding-left: 0px; 
-  padding-right:0px
+  padding-left: 0rem; 
+  padding-right:0rem
 }
 
 
 .optin-form {
-  width: 340px;
-    margin: 50px auto;
-  padding-bottom: 5px; 
+  width: 21rem;
+    margin: 3rem auto;
+  padding-bottom: 0.5rem; 
     
 }
   .optin-form form {
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
       background-color:  rgba(19, 28, 39, 0.4);
       box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-      padding: 30px;
+      padding: 2rem;
   }
   .optin-form h2 {
-      margin: 0 0 15px;
+      margin: 0 0 1rem;
       color:white;
       font-size: 1.5rem;
   }
@@ -427,16 +421,16 @@ btn .btn-warning{
     color:#fff;
   }
   .form-control, .btn {
-      min-height: 38px;
-      border-radius: 2px;
+      min-height: 2rem;
+      border-radius: 2rem;
   }
   /* Trainer Section */
 
 .trainer-container{
 border: 0;
 padding:0;
-padding-left: 0px; 
-padding-right:0px
+padding-left: 0rem; 
+padding-right:0rem
 }
 
 .trainer {
@@ -460,16 +454,16 @@ padding-right:0px
   background-color: #ff8300; 
   color: white;
   font-weight: 500;
-  font-size: 9px;
-  padding: 10px 5px; 
-  border-radius: 23px;
+  font-size: 0.6rem;
+  padding: 0.6rem 0.3rem; 
+  border-radius: 1.5rem;
   cursor: pointer;
   width: 40%;
   } 
   footer {
   background-color: #4E5A67;
   color: #fafafa;
-  min-height: 120px; 
+  min-height: 7.5rem; 
   margin: 0;
 }
 .footer h5  {
@@ -480,7 +474,7 @@ text-transform: uppercase;
 }
 
 #footer-details {
-  padding: 20px;
+  padding: 1.25rem;
   background-color:#4E5A67;
   color:#fff; 
   }
@@ -491,15 +485,15 @@ text-transform: uppercase;
       
   }
 .social-links {
-  padding-bottom: 15px;
+  padding-bottom: 1rem;
 }
 .social-links li a i {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   padding: 12px 0; 
   border-radius: 50%;
-  font-size: 12px; 
-  line-height: 7px;
+  font-size: 0.75rem; 
+  line-height: 0.5rem;
   text-align: center;
   color: #fafafa;
   background: #eb8100;
@@ -529,7 +523,7 @@ overflow-x: hidden;
     text-align: center;
   }
    .callout-container{
- background: url(../img/runner594x588.png) no-repeat
+ background: url(../img/runner-crop.png) no-repeat
  bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -541,7 +535,7 @@ overflow-x: hidden;
   position: relative;
 }
    .intro-container{
-background: url(../img/runner594x588.png) no-repeat
+background: url(../img/runner-crop.png) no-repeat
  bottom right fixed;
  -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -566,22 +560,5 @@ background: url(../img/runner594x588.png) no-repeat
 
  }
 
- @media ( max-width:460px) {
-.callout-container{
-background-image: url("../img/runner460x305.png");
-background-position: center center; 
-background-attachment:scroll;     
-background-repeat: no-repeat;
-background-size: cover; 
- }
-
-.intro-container{
-background-image: url(../img/runner460x305.png);
-background-position: center center; 
-background-attachment:scroll;     
-background-repeat: no-repeat;
-background-size: cover; 
- }
-} 
-
+ 
  
